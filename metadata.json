@@ -1,0 +1,8 @@
+{
+  "name": "Cruz Automations",
+  "description": "Sitio web profesional para Cruz Automations, expertos en automatización industrial y soluciones tecnológicas inteligentes.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -5,7 +5,7 @@ export const SERVICES_DATA: Service[] = [
   {
     id: 'whatsapp-agents',
     title: 'Agentes Personalizados en WhatsApp',
-    shortDescription: 'Crea agentes inteligentes disponibles las 24 horas para atender a tus clientes y resolver sus dudas de forma automática.',
+    shortDescription: 'Creamos agentes inteligentes con modelos de inteligencia artificial como gpt-5 disponibles las 24 horas para atender a tus clientes y resolver sus dudas de forma automática.',
     fullDescription: 'Nuestros agentes personalizados en WhatsApp utilizan inteligencia artificial avanzada para atender a tus clientes las 24 horas del día, los 7 días de la semana. Automatiza respuestas, gestiona consultas frecuentes y mejora la experiencia del cliente sin intervención manual.',
     icon: 'WA',
     imageUrl: 'https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&q=80&w=1200',

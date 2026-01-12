@@ -56,41 +56,31 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* About Section - Restored to original clean style */}
       <section className="px-6 md:px-12 py-32 bg-slate-900/20 scroll-mt-24" id="about">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
           <div>
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-tighter">Liderando con <br/>Tecnología</h2>
+            <h2 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-tighter">¿Quiénes Somos?</h2>
             <div className="w-24 h-2 bg-blue-600 mb-10 rounded-full"></div>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
-              En <span className="text-blue-400 font-extrabold uppercase">Cruz Automations</span> desarrollamos ecosistemas inteligentes que aprenden y evolucionan con tu negocio.
+              En Cruz Automations, somos apasionados por la eficiencia. Nos especializamos en integrar tecnologías de última generación para crear entornos inteligentes y productivos.
             </p>
-            <div className="grid grid-cols-2 gap-8">
-              <div className="p-8 rounded-3xl bg-slate-900/50 border border-slate-800">
-                <div className="text-4xl font-extrabold text-blue-500 mb-2">+150</div>
-                <div className="text-xs text-slate-500 font-black uppercase tracking-widest">Éxitos</div>
-              </div>
-              <div className="p-8 rounded-3xl bg-slate-900/50 border border-slate-800">
-                <div className="text-4xl font-extrabold text-blue-500 mb-2">24/7</div>
-                <div className="text-xs text-slate-500 font-black uppercase tracking-widest">Monitoreo</div>
-              </div>
-            </div>
+            <p className="text-lg text-slate-400 mb-10 leading-relaxed">
+              Nuestra misión es empoderar a empresas y hogares mediante la automatización de tareas repetitivas, permitiendo que las personas se enfoquen en lo que realmente importa: la innovación y el crecimiento.
+            </p>
           </div>
-          <div className="flex justify-center">
-            <div className="relative group p-4 bg-black rounded-full shadow-2xl border border-slate-800 transition-transform duration-700 hover:rotate-3">
-              <div className="w-[320px] h-[320px] md:w-[450px] md:h-[450px] bg-black rounded-full flex flex-col items-center justify-center border border-slate-800 shadow-inner overflow-hidden relative">
-                 <div className="flex flex-col items-center justify-center z-10">
-                    <span className="text-white text-[12rem] font-black tracking-tighter leading-none select-none">CX</span>
-                    <span className="text-white text-xl font-extrabold tracking-[0.6em] mt-4 border-t border-white/20 pt-4 px-8 select-none">AUTOMATIONS</span>
-                 </div>
-                 <div className="absolute inset-0 bg-gradient-to-tr from-blue-900/20 to-transparent pointer-events-none"></div>
-              </div>
-            </div>
+          <div className="relative">
+            <div className="absolute -inset-4 bg-blue-600/20 blur-3xl rounded-full opacity-50"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=1200" 
+              alt="Equipo de Trabajo" 
+              className="relative rounded-[2.5rem] shadow-2xl border border-slate-800"
+            />
           </div>
         </div>
       </section>
 
-      {/* Unified Services Grid Section (Matching Screenshot) */}
+      {/* Unified Services Grid Section */}
       <section id="services-section" className="px-6 md:px-12 py-32 bg-slate-950 scroll-mt-24">
         <div className="max-w-7xl mx-auto text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-tighter">Nuestros Servicios</h2>
@@ -136,7 +126,7 @@ const Home: React.FC = () => {
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 pointer-events-none"></div>
           <h2 className="text-4xl md:text-6xl font-extrabold mb-8 tracking-tighter leading-tight relative z-10">¿Listos para la <br/>próxima fase?</h2>
           <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto opacity-80 relative z-10">
-            Únete a las empresas que ya están ahorrando miles de horas de trabajo manual gracias a CX.
+            Únete a las empresas que ya están ahorrando miles de horas de trabajo manual gracias a Cruz Automations.
           </p>
           <a href="https://wa.me/qr/WQT6VYQRFZACF1" target="_blank" rel="noopener noreferrer" className="relative z-10 inline-block bg-white text-blue-900 px-12 py-6 rounded-2xl font-extrabold text-2xl hover:bg-blue-50 transition-all transform hover:scale-105 shadow-2xl">
             Contactar vía WhatsApp

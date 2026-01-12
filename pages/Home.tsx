@@ -49,9 +49,9 @@ const Home: React.FC = () => {
 
         <div className="mt-24 w-full max-w-6xl rounded-[3rem] overflow-hidden border border-slate-800 shadow-2xl bg-slate-900/50">
           <img 
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2000" 
-            alt="Ingeniería Avanzada" 
-            className="w-full h-[500px] object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-1000"
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=2000" 
+            alt="Automatización Industrial Avanzada" 
+            className="w-full h-[500px] object-cover opacity-90 transition-all duration-1000"
           />
         </div>
       </section>

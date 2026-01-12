@@ -54,7 +54,7 @@ const Home: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-6 mb-20">
+        <div className="flex flex-col sm:flex-row gap-6 mb-16">
           <a href="#/services" className="bg-white hover:bg-zinc-200 text-black px-10 py-5 rounded-2xl font-extrabold text-xl transition-all shadow-xl shadow-white/5 transform hover:-translate-y-1">
             Nuestros Servicios
           </a>
@@ -63,13 +63,27 @@ const Home: React.FC = () => {
           </a>
         </div>
 
-        {/* Feature Visual */}
-        <div className="w-full max-w-6xl rounded-[3rem] overflow-hidden border border-white/10 shadow-2xl bg-zinc-900/40">
+        {/* Adjusted Smaller Feature Visual */}
+        <div className="w-full max-w-4xl rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl bg-zinc-900/40 mx-auto">
           <img 
-            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2000" 
-            alt="Tecnología de Vanguardia" 
-            className="w-full h-[400px] md:h-[600px] object-cover opacity-90"
+            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1600" 
+            alt="Conectividad Global" 
+            className="w-full h-[300px] md:h-[400px] object-cover opacity-80"
           />
+        </div>
+      </section>
+
+      {/* Nueva Sección: Nuestra Misión */}
+      <section className="px-6 md:px-12 py-24 bg-zinc-950 border-y border-white/5">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-xs font-black tracking-[0.4em] text-zinc-500 uppercase mb-6">Filosofía de Empresa</h2>
+          <h3 className="text-3xl md:text-5xl font-extrabold mb-10 tracking-tight leading-tight uppercase">Nuestra Misión</h3>
+          <p className="text-2xl md:text-4xl text-zinc-300 font-light leading-tight tracking-tight">
+            "Nuestro objetivo es <span className="text-white font-bold">impulsar los negocios</span> con tecnología, hacerlos notar en el mundo digital e impulsar el desarrollo de tareas mediante <span className="text-white font-bold">innovación constante</span>."
+          </p>
+          <div className="mt-12 flex justify-center">
+            <div className="w-16 h-1 bg-white/20 rounded-full"></div>
+          </div>
         </div>
       </section>
 
